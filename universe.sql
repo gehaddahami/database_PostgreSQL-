@@ -486,6 +486,7 @@ ALTER TABLE ONLY public.planet
     ADD CONSTRAINT follows_star FOREIGN KEY (star_id) REFERENCES public.star(star_id);
 
 
+
 --
 -- PostgreSQL database dump complete
 --
